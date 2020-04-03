@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import {Quote} from './quote';
 
 @Component({
   selector: 'app-root',
@@ -10,6 +11,10 @@ export class AppComponent {
   navbarComponent1 = 'All Quotes';
   navbarComponent2 = 'Recent Quotes';
   navbarComponent3 = 'Popular Quotes';
-  navbarComponent4 = 'Add Quote'
+  navbarComponent4 = 'Add Quote';
+
+  quotes: Quote[] = [
+
+  ]
   /*Hopefully have the navbar components here. This includes the add quotes icon,recent,popular and all quotes*/
 }
