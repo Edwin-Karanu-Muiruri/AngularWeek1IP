@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import {Quote} from '../quote';
 
 @Component({
   selector: 'app-votes',
@@ -6,6 +7,19 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./votes.component.css']
 })
 export class VotesComponent implements OnInit {
+
+  /*numberOfUpVote:any =0;
+  numberOfDownVote:any=0;*/
+
+  /*numberOfUpVotes = QuoteComponent.
+  numberOfDownVotes: any = QuoteComponent.quotes;
+ 
+  likeButtonClick(numberOfDownVote){
+    this.numberOfUpVotes++;
+  }
+  dislikeButtonClick(){
+    this.numberOfDownVotes++;
+  }*/
 
   constructor() { }
 
