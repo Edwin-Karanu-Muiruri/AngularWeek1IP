@@ -7,12 +7,7 @@ import {Quote} from './quote';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'Quotes Guru';
-  navbarComponent1 = 'All Quotes';
-  navbarComponent2 = 'Recent Quotes';
-  navbarComponent3 = 'Popular Quotes';
-  navbarComponent4 = 'Add Quote';
-
+  title = 'Quote Mania'
   
   /*Hopefully have the navbar components here. This includes the add quotes icon,recent,popular and all quotes*/
 }
