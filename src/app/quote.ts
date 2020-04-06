@@ -1,7 +1,10 @@
+import {} from '';
 export class Quote {
-    name: string;
+    /*name: string;
     quote: string;
     author: string;
-    upvote: boolean;
-    downvote: boolean;
+    upvote: number;
+    downvote: number;*/
+
+    constructor (public name:string, public quote: string, public author: string, public upvote:number, public downvote:number)
 }
