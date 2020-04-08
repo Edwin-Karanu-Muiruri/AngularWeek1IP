@@ -22,8 +22,8 @@ export class QuoteComponent implements OnInit {
     new Quote('Winnie N.M','Only your best is good enough','Nyawira',1500,20)
 
   ]
-  upvotes: number;
-  downvotes: number;
+  // upvotes: number;
+  // downvotes: number;
 
   addNewQuote(quote){
     this.quotes.unshift(quote)
@@ -36,13 +36,12 @@ export class QuoteComponent implements OnInit {
     }
   }
   
-  likeButtonClick(upvotes){
-    this.upvotes+1;
-    return new upvotes;
+  likeButtonClick(index){
+    return this.quotes[index].upvotes+=1;
+    
   }
-  dislikeButtonClick(downvotes){
-    this.downvotes+1;
-    return new downvotes;
+  dislikeButtonClick(index){
+    return this.quotes[index].downvotes+=1;
   } 
   constructor() { }
 
