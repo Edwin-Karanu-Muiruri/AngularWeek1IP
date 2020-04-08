@@ -9,5 +9,4 @@ import {Quote} from './quote';
 export class AppComponent {
   title = 'Quote Mania'
   
-  /*Hopefully have the navbar components here. This includes the add quotes icon,recent,popular and all quotes*/
 }

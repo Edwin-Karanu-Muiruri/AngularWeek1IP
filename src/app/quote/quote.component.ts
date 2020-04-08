@@ -21,6 +21,8 @@ export class QuoteComponent implements OnInit {
     new Quote('Johnston Community School','The only person you are destined to be is the person you decide to be','Ralph Waldo Emerson',500,34)
 
   ]
+  upvotes: number;
+  downvotes: number;
 
   addNewQuote(quote){
     this.quotes.unshift(quote)
@@ -33,6 +35,12 @@ export class QuoteComponent implements OnInit {
     }
   }
   
+  likeButtonClick(upvotes){
+    this.upvotes++;
+  }
+  dislikeButtonClick(){
+    this.downvotes++;
+  } 
   constructor() { }
 
   ngOnInit(): void {
