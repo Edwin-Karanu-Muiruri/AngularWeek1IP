@@ -1,4 +1,4 @@
-.quote_card{
+.quoteCard{
     margin: 30px;
 }
 .delete_btn{
@@ -12,10 +12,10 @@
     float: right;  
     width: auto;
 }
-.up_vote{
+.btn_upvote{
     margin: 5px;
 }
-.down-vote{
+.btn_downvote{
     margin: 5px;
 }
 .like_gp{
