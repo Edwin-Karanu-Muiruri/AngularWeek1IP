@@ -14,7 +14,7 @@ export class QuoteComponent implements OnInit {
     new Quote('Willy Kamau','Act as if what you do makes a difference. It does','William James',210,4),
     new Quote('Fred Matiangi','Sometimes you will never know the value of a moment until it becomes a memory','Dr Seuss',200,0),
     new Quote('James Harden','You are never too old to set another goal or to dream a new dream','C.S. Lewis',3200,70),
-    new Quote('Success.com','Your limitation-Its only your imagination','Unknown',100,9),
+    new Quote('Success.com','Your limitation-Its only your imagination','Unknown',1600,95),
     new Quote('Derrick M','Be the change you wish to see in the world','Mahatma Gandhi',2200,15),
     new Quote('Mindfulness Daily','Sometimes we are tested, not to show our weakness, but to discover our strengths','F.R. Rishabh.S',68,0),
     new Quote('Foodliy.com','Take responsibility of your own happiness, never put it in other peoples hands','Roy T. Bennet',300,49),
