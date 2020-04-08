@@ -19,7 +19,7 @@ export class QuoteComponent implements OnInit {
     new Quote('Mindfulness Daily','Sometimes we are tested, not to show our weakness, but to discover our strengths','F.R. Rishabh.S',68,0),
     new Quote('Foodliy.com','Take responsibility of your own happiness, never put it in other peoples hands','Roy T. Bennet',300,49),
     new Quote('Johnston Community School','The only person you are destined to be is the person you decide to be','Ralph Waldo Emerson',500,34),
-    new Quote('Winnie N.M','Only your best is good enough','Nyawira',1500,2)
+    new Quote('Winnie N.M','Only your best is good enough','Nyawira',1500,20)
 
   ]
   upvotes: number;
