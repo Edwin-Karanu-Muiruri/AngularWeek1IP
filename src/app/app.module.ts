@@ -9,13 +9,15 @@ import { QuoteComponent } from './quote/quote.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { QuoteFormComponent } from './quote-form/quote-form.component';
 import { VotesComponent } from './votes/votes.component';
+import { DateCountPipe } from './date-count.pipe';
 
 @NgModule({
   declarations: [
     AppComponent,
     QuoteComponent,
     QuoteFormComponent,
-    VotesComponent
+    VotesComponent,
+    DateCountPipe
   ],
   imports: [
     BrowserModule,
